@@ -17,7 +17,7 @@ function changeProblem() {
   addB = Math.floor(Math.random() * 10);
   document.getElementById("intA").innerText = addA;
   document.getElementById("intB").innerText = addB;
-  document.getElementById("check").innerText = "Type Your Answer";
+  document.getElementById("check").innerText = "";
   document.getElementById("answer").value = "Answer";
   document.getElementById("checkAns").style.display = "inline-block";
 }
