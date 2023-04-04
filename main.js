@@ -18,7 +18,7 @@ function changeProblem() {
   document.getElementById("intA").innerText = addA;
   document.getElementById("intB").innerText = addB;
   document.getElementById("check").innerText = "Type Your Answer";
-  document.getElementById("answer").value = "";
+  document.getElementById("answer").value = " ";
   document.getElementById("checkAns").style.display = "inline-block";
 }
 
